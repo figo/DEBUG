@@ -29,6 +29,7 @@ jobs:
       install:
         - make depend
       script:
+        - make build
         - make ci_push
 
     - stage:    e2e test
